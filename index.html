@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Pokemons</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1 class="h1 text-center mt-3 mb-5">Pokemons</h1>
+
+        <div class="pokemons pokemons-wrapper"></div>
+      </div>
+      <template id="pokemon-card-template">
+        <li class="pokemon col-md-3 mb-3">
+          <div class="pokemon__card card border-0 shadow-sm">
+            <img
+              class="pokemon__img card-img-top"
+              src="https://via.placeholder.com/300x200"
+              alt="pokemon picture"
+              width="300"
+              height="200"
+            />
+            <div class="pokemon__card-body card-body text-center">
+              <h2 class="pokemon__name h4 card-title">Pokemons name</h2>
+              <div class="pokemon__type cart-text">Grass, Electric</div>
+            </div>
+          </div>
+        </li>
+      </template>
+    </main>
+    <script src="./js/pokemons.js"></script>
+   <script src="./js/utils.js"></script>
+    <script src="./js/main.js"></script>
+
+   
+  </body>
+</html>
