@@ -4,7 +4,7 @@ pokemons.forEach(function (pokemon) {
   var newLi = createElement("li", "pokemon-card", "");
   var newImg = createElement("img", "pokemon-img", "");
 
-  newImg.setAttribute("src", pokemon.img);
+  newImg.setAttribute("src", pokemon.images);
 
   var newElP = createElement('p', 'pokemon-name', pokemon.name,);
   var newElType = createElement('p', 'pokemon-type', pokemon.type);
